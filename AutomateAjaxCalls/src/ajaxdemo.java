@@ -20,6 +20,8 @@ public class ajaxdemo {
 		System.out.println("lora le lo");
 		System.out.println("lora le lo");
 		System.out.println("lora le lo");
+		System.out.println("khan");
+		System.out.println("khan");
 
 	}
 

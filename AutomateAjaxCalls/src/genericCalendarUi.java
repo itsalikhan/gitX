@@ -19,6 +19,7 @@ public class genericCalendarUi {
 		//April 23
 		driver.findElement(By.xpath(".//*[@id='travel_date']")).click();
 		System.out.println("khan");
+		System.out.println("khan");
 		while(!driver.findElement(By.cssSelector("[class='datepicker-days'] [class='datepicker-switch']")).getText().contains("May"))
 		{
 		driver.findElement(By.cssSelector("[class='datepicker-days'] th[class='next']")).click();
