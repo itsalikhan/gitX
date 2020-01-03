@@ -18,6 +18,7 @@ public class genericCalendarUi {
 		driver.get("https://www.path2usa.com/travel-companions");
 		//April 23
 		driver.findElement(By.xpath(".//*[@id='travel_date']")).click();
+		System.out.println("khan");
 		while(!driver.findElement(By.cssSelector("[class='datepicker-days'] [class='datepicker-switch']")).getText().contains("May"))
 		{
 		driver.findElement(By.cssSelector("[class='datepicker-days'] th[class='next']")).click();
@@ -33,6 +34,7 @@ public class genericCalendarUi {
 		{
 		driver.findElements(By.className("day")).get(i).click();
 		break;
+		
 		}
 
 	}
