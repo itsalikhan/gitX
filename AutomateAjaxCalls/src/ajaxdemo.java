@@ -17,6 +17,7 @@ public class ajaxdemo {
 		WebElement move = driver.findElement(By.cssSelector("a[id='nav-link-accountList']"));
 		a.moveToElement(driver.findElement(By.id("twotabsearchtextbox"))).click().sendKeys(Keys.SHIFT).sendKeys("hello").doubleClick().build().perform();
 		a.moveToElement(move).contextClick().build().perform();
+		System.out.println("lora le lo");
 
 	}
 
